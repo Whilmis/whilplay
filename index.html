@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>
+       WHILPLAY
+     </title>
+     <meta charset="UTF-8">
+     <Meta name="viwport" content="width=device-whith, initial-sxale=1.0"> 
+        <link rel="stylesheet" href="css/estilos.css">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header> 
+         <div class="contenedor"><h2 class="logotipo">WHILPLAY</h2>
+         <nav>
+         <a href="#" class="activo">Inicio </a>
+         <a href="#">Programas </a>
+         <a href="#">Peliculas </a>
+         <a href="#">más Recientes </a>
+         <a href="#">Mi Lista </a>
+         </nav></div>
+        </header>
+        <main>
+        <div class="pelicula-principal">
+            <div class="contenedor">
+                <h3 class="titulo">Interestelar</h3>
+                <p class="descripcion">Después de separarse de Joker, Harley Quinn y otras tres heroínas (Canario Negro, Cazadora y Renée Montoya) unen sus fuerzas para salvar a una niña (Cassandra Cain) del malvado rey del crimen Máscara Negra.</p>
+                <button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
+                <button role="button" class="boton"><i class="fas fa-info-circle"></i>Mas informacion</button>
+            </div>
+        </div>
+        <div class="peliculas-recomendadas contenedor">
+            <div class="contenedor-titulo-controles"><h3>Peliculas Recomendadas</h3>
+            <div class="indicadore"></div> </div>
+            <div class="contenedor-proncipal">
+                <button role="button"  id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+                <div class="contenedo-carousel">
+                    <div class="carousel">
+                        <div >
+                            <a href="#"><img src="img/imagen1.jpg" class="pelicula" alt=""></a>
+                                <a href="#"><img src="img/imagen2.jpg"class="pelicula"alt=""></a>
+                         
+                           
+                                <a href="#"><img src="img/imagen3.jpg" class="pelicula" alt=""></a>
+                          
+                                <a href="#"><img src="img/imagen4.jpg" class="pelicula" alt=""></a>
+                          
+                                <a href="#"><img src="img/imagen5.jpg"  class="pelicula" alt=""></a>
+                           
+                                <a href="#"><img src="img/imagen6.jpg" class="pelicula" alt=""></a>
+                        
+                                <a href="#"><img src="img/imagen7.jpg" class="pelicula" alt=""></a>
+                         
+                                <a href="#"><img src="img/imagen8.jpg" class="pelicula" alt=""></a>
+                         
+                        </div>
+                    </div>
+                </div>
+                <button role="button"  id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+            </div>
+        </div>
+        </main>
+        
+    <div class="container">
+        <div class="row my-5">
+          <div class="col-md-4">
+  
+            <div class="card">
+              <div class="card-body">
+                <!-- FORM TO ADD TASKS -->
+                <form id="formTask">
+                  <div class="form-group">
+                    <input type="text" id="title" placeholder="comentario" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <textarea id="description" cols="30" rows="10" class="form-control"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-8">
+            <div id="tasks"></div>
+          </div>
+        </div>
+      </div>
+      <script src="./app.js"></script>
+      <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+      <script src="js/main.js"></script>
+    </body>
+</html>
